@@ -1,0 +1,67 @@
+<!--
+---About---
+Simple responsive blog model 
+uses header and 2 sidebars around body
+and a footer at the bottom
+
+It adapts to mobile device (width:400px)
+header's menu vertical instead on mobile devices 
+both sidebars take full width followed by body and footer
+   
+    desktop ---------------------------
+    page
+        header (horizontal menu)
+        sidebar1 | body(mosaic) | sidebar2
+        footer
+    mobile-----------------------------
+    page
+        header (vertical menu)
+        sidebar1 | sidebar2
+        body
+        footer
+    -----------------------------------
+-->
+
+<!DOCTYPE html>
+ <html>
+  <head>
+	<meta charset="utf-8" />
+     <link rel="stylesheet" href="style.css" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"> <!-- force normal zoom -->
+     <title>Simple Blog Model</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  </head>
+  <body>
+      <div class="page"> <!-- container -->
+            <div class="header">
+                <a href="#">Acceuil</a>
+                <a href="#">Curriculum</a>
+                <a href="#">Projets</a>
+                <a href="#">Tutorials</a>
+                <a href="#">About</a>
+                <a href="#">Games</a>
+                <a href="#">Designs</a>
+                <a href="#">Other</a>
+            </div> <!-- header end -->
+
+            <div class="sidebar1">
+                sidebar 1
+            </div> <!-- sidebar end-->
+
+            <div class="sidebar2">
+                sidebar 2
+            </div> <!-- sidebar end -->
+
+            <div class="body">
+                main section
+                <div class="mosaic">
+                    <img class="image" src="http://placehold.it/150x150" alt=""/> <!--http://placehold.it/WxH includes img -->
+                </div> <!-- mosaic end -->
+            </div> <!-- body end -->
+
+            <div class="footer">
+                footer
+            </div> <!-- footer end -->
+        </div> <!--container end -->
+      </body>
+</html>

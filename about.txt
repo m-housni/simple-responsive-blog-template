@@ -1,0 +1,23 @@
+<!--
+---About---
+Simple responsive blog model 
+uses header and 2 sidebars around body
+and a footer at the bottom
+
+It adapts to mobile device (width:400px)
+header's menu vertical instead on mobile devices 
+both sidebars take full width followed by body and footer
+   
+    desktop ---------------------------
+    page
+        header (horizontal menu)
+        sidebar1 | body(mosaic) | sidebar2
+        footer
+    mobile-----------------------------
+    page
+        header (vertical menu)
+        sidebar1 | sidebar2
+        body
+        footer
+    -----------------------------------
+-->
